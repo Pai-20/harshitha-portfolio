@@ -21,14 +21,14 @@ body {
    Header & Navigation
 ================================ */
 header {
-  background-color: rgba(255, 255, 255, 0.95);
+  background: linear-gradient(135deg, #2563eb, #1e40af); /* professional blue */
   padding: 16px 40px;
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid #e2e8f0;
-  backdrop-filter: blur(8px);
+  border-bottom: none;
 }
+
 
 nav {
   display: flex;
@@ -37,29 +37,16 @@ nav {
 }
 
 header h1 {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #0f172a;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 24px;
+  color: #ffffff;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #475569;
-  font-weight: 500;
-  padding: 6px 10px;
-  border-radius: 6px;
-  transition: background 0.3s ease, color 0.3s ease;
+  color: #e0e7ff;
 }
 
 nav ul li a:hover {
-  background-color: #e2e8f0;
-  color: #0f172a;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
 }
 
 /* ===============================
@@ -281,3 +268,4 @@ footer {
   font-size: 0.9rem;
   margin-top: 60px;
 }
+
