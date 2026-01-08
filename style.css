@@ -20,34 +20,35 @@ body {
 /* ===============================
    Header & Navigation
 ================================ */
+/* ===== Dark Blue Navbar ===== */
 header {
-  background: linear-gradient(135deg, #2563eb, #1e40af); /* professional blue */
+  background: linear-gradient(135deg, #0f172a, #1e3a8a); /* dark blue */
   padding: 16px 40px;
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: none;
-}
-
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
 header h1 {
   color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 nav ul li a {
-  color: #e0e7ff;
+  color: #c7d2fe;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
   background-color: rgba(255, 255, 255, 0.15);
   color: #ffffff;
 }
+
 
 /* ===============================
    Hero Section
@@ -268,4 +269,5 @@ footer {
   font-size: 0.9rem;
   margin-top: 60px;
 }
+
 
