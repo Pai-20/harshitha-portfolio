@@ -36,18 +36,23 @@ header h1 {
   font-weight: 700;
 }
 
-nav ul li a {
-  color: #c7d2fe;
-  font-weight: 500;
-  padding: 6px 12px;
-  border-radius: 6px;
-  transition: background 0.3s ease, color 0.3s ease;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-  color: #ffffff;
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;   /* force horizontal */
+  align-items: center;
+  gap: 24px;
+  flex-wrap: nowrap;     /* PREVENT wrapping */
+  margin: 0;
+  padding: 0;
 }
+
 
 
 /* ===============================
@@ -269,5 +274,6 @@ footer {
   font-size: 0.9rem;
   margin-top: 60px;
 }
+
 
 
